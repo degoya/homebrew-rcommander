@@ -15,7 +15,7 @@ brew install degoya/rcommander/rcommander
 replace itself, and its update window shows that command. The macOS app is signed ad hoc, not
 notarised: macOS asks once before its first start. Linux needs glibc 2.39 or newer.
 
-Current version: 0.14.0. The cask and the formula are written by the release workflow of
+Current version: 0.15.0. The cask and the formula are written by the release workflow of
 [degoya/rCommander](https://github.com/degoya/rCommander) with every release - issues and changes go there,
 not here. The handbook's installation page:
 <https://github.com/degoya/rCommander/wiki/installation>.
