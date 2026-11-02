@@ -5,7 +5,7 @@
 class Rcommander < Formula
   desc "Two-panel file manager with terminals, SSH and SFTP"
   homepage "https://rcommander.net"
-  version "0.16.1"
+  version "0.17.0"
   license "GPL-3.0-or-later"
 
   livecheck do
@@ -15,12 +15,12 @@ class Rcommander < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/degoya/rCommander/releases/download/v0.16.1/rcommander-0.16.1-linux-arm64.tar.gz"
-      sha256 "af556d45ee34bfbae389fa909e15dc2722979ac4525fbc9059814425b260a11c"
+      url "https://github.com/degoya/rCommander/releases/download/v0.17.0/rcommander-0.17.0-linux-arm64.tar.gz"
+      sha256 "aec1dffb7b508b3dcac52522285b0c4120678231851f5bab8b3f18503916c7b5"
     end
     on_intel do
-      url "https://github.com/degoya/rCommander/releases/download/v0.16.1/rcommander-0.16.1-linux-x64.tar.gz"
-      sha256 "b1f79388ced4afa93298fabb982298f30cf11ad8774f84aa0b54538c2d22e1ac"
+      url "https://github.com/degoya/rCommander/releases/download/v0.17.0/rcommander-0.17.0-linux-x64.tar.gz"
+      sha256 "ad3c1aad9df15cfb4ecbb76a29f46a362770243aaa752dbcd396df452fc7bae1"
     end
   end
 
