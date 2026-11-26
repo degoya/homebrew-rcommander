@@ -5,7 +5,7 @@
 class Rcommander < Formula
   desc "Two-panel file manager with terminals, SSH and SFTP"
   homepage "https://rcommander.net"
-  version "0.25.1"
+  version "0.26.0"
   license "GPL-3.0-or-later"
 
   livecheck do
@@ -15,12 +15,12 @@ class Rcommander < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/degoya/rCommander/releases/download/v0.25.1/rcommander-0.25.1-linux-arm64.tar.gz"
-      sha256 "f622ab3e0486afed4bd1bfc16a2d1b285c6e253989faea52364b85cd6301170f"
+      url "https://github.com/degoya/rCommander/releases/download/v0.26.0/rcommander-0.26.0-linux-arm64.tar.gz"
+      sha256 "69c4f292b058e32c0a4bdbd03419991dfdcd2d9edd90fe305a2a82b1e4ed4539"
     end
     on_intel do
-      url "https://github.com/degoya/rCommander/releases/download/v0.25.1/rcommander-0.25.1-linux-x64.tar.gz"
-      sha256 "21ad1a934140b515752899093fcff239a28ae586ce9132106344bed4d442fcef"
+      url "https://github.com/degoya/rCommander/releases/download/v0.26.0/rcommander-0.26.0-linux-x64.tar.gz"
+      sha256 "999552f8f15245ff940cd267adaec872520da488c49f9be975d6cbad97a5845a"
     end
   end
 
@@ -31,7 +31,7 @@ class Rcommander < Formula
     # plugins/ beside the executable. bin/ gets a script that execs the real file, so the program
     # runs from the Cellar, where its update check sees that Homebrew updates it.
     libexec.install "rcommander", "plugins", "VERSION.txt"
-    doc.install "README.md", "LICENSE", "NOTICE"
+    doc.install "README.md", "LICENSE", "NOTICE", "THIRD-PARTY-LICENSES"
     bin.write_exec_script libexec/"rcommander"
   end
 
