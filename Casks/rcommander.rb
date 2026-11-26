@@ -3,15 +3,15 @@
 # Casks/rcommander.rb, and replaced by the release workflow with every release: change the
 # template, not this file. Linux has the formula (Formula/rcommander.rb); casks are macOS only.
 cask "rcommander" do
-  version "0.26.0"
+  version "0.26.1"
 
   on_arm do
-    url "https://github.com/degoya/rCommander/releases/download/v0.26.0/rcommander-0.26.0-macos-aarch64.zip"
-    sha256 "2eefb20c8cc23d1e4cfdc55685429462e0b935f50cd2727695e36572854d6bd9"
+    url "https://github.com/degoya/rCommander/releases/download/v0.26.1/rcommander-0.26.1-macos-aarch64.zip"
+    sha256 "033ba72d87e986d422e585e75aec422005de2a86437d1d168afe52886769f0bb"
   end
   on_intel do
-    url "https://github.com/degoya/rCommander/releases/download/v0.26.0/rcommander-0.26.0-macos-x86_64.zip"
-    sha256 "e233eaa506daa1366486625b6983f50f6099305089b9d05a98f112ef7c7b1776"
+    url "https://github.com/degoya/rCommander/releases/download/v0.26.1/rcommander-0.26.1-macos-x86_64.zip"
+    sha256 "4b9893934addd68916950f716a7348d80ef0396a56eb0372da65f28b51a27bbe"
   end
 
   name "rCommander"
